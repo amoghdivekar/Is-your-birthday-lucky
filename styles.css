@@ -6,36 +6,46 @@
 }
 
 body {
+  margin: auto;
+  padding: 2rem;
   background-color: var(--secondary-color);
   color: var(--primary-color);
   font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
+    padding: 1rem;
   text-align: center;
 }
 
 .container {
+    padding: 1rem;
   width: 50%;
   margin: auto;
 }
 
 input, label {
   display: block;
+  padding: 1rem;
 }
 
 input {
   margin-bottom: 0.5rem;
   width: 100%;
+  padding: 0.5rem;
 }
 
 #check-number {
   display: block;
-  margin-top: 2rem;
-  margin: auto;
+  margin-top: 1rem;
+  margin: 2rem auto;
   background: transparent;
   color: var(--primarycolor);
   border-width: medium;
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
   padding: 0.3rem;
+}
+#output-box {
+    margin: auto;
+    padding: 1rem;
 }
